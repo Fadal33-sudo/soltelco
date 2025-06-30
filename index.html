@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website-kayga GitHub Pages</title>
-    <!-- Waxaan isticmaalaynaa Tailwind CSS si aan u qurxinno bogga -->
+    <title>Website-kayga GitHub Pages - Bogga Hore</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif; /* Isticmaal font-ka Inter */
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex flex-col items-center p-4">
+
+    <!-- Navigation Bar (Menu) - Halkan ayay links-ku ku jiraan -->
+    <nav class="bg-white p-4 rounded-xl shadow-lg mb-8 w-full max-w-4xl flex justify-center space-x-6">
+        <!-- Link-ga Bogga Hore (index.html) -->
+        <a href="index.html" class="text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors duration-300">Bogga Hore</a>
+        <!-- Link-ga Bogga Naga Saabsan (about.html) -->
+        <a href="about.html" class="text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors duration-300">Naga Saabsan</a>
+        <!-- Link-ga Bogga Nala Soo Xiriir (contact.html) -->
+        <a href="contact.html" class="text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors duration-300">Nala Soo Xiriir</a>
+    </nav>
+
     <div class="bg-white p-8 rounded-xl shadow-2xl max-w-lg w-full text-center transform transition-all duration-500 hover:scale-105">
         <h1 class="text-4xl font-extrabold text-gray-800 mb-4 animate-bounce">
             Soo Dhawoow Website-kayga!
@@ -36,7 +46,6 @@
 
     <script>
         // Waxaad ku dari kartaa JavaScript-kaaga halkan
-        // Tusaale ahaan, waxaad ku samayn kartaa waxyaabo isbeddelaya marka la gujiyo badhamada
         document.querySelector('.bg-green-500').addEventListener('click', () => {
             alert('Weli ma jiraan wax lagu barto! Ku dar content-kaaga.');
         });
@@ -47,3 +56,4 @@
     </script>
 </body>
 </html>
+
